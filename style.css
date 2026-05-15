@@ -1,6 +1,6 @@
 body {
-    background-color: #121212;
-    color: #7c7979;
+    background-color: #000000;
+    color: #3d3b3b;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
@@ -9,15 +9,15 @@ body {
 
 .container {
     width: 400px;
-    background-color: hsl(51, 100%, 85%);
+    background-color: hsla(60, 20%, 13%, 0.555);
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #333;
+    border: 1px solid #1d1a1a42;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
 h1{
-    color: #700707;
+    color: #a00b0b;
     text-align: center;
 }
 
@@ -74,4 +74,17 @@ input, select {
     background-color: #ffffff;
     color: #ccc ;
     box-sizing:  border-box;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #2c282852;
+    margin:  20px 0;
+}
+
+.card{
+    background: #201b1b;
+    padding:  15px;
+    margin-top: 15px;
+    border-left: 5px solid #090a0a;
 }
