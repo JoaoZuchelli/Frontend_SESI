@@ -1,6 +1,6 @@
 body {
-    background-color: #000000;
-    color: #3d3b3b;
+    background-color: #121212;
+    color: #ffffff;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
@@ -9,20 +9,20 @@ body {
 
 .container {
     width: 400px;
-    background-color: hsla(60, 20%, 13%, 0.555);
+    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #1d1a1a42;
+    border: 1px solid #c11515;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
 h1{
-    color: #a00b0b;
+    color: #aa1c1c;
     text-align: center;
 }
 
 h3{
-    color: #ffffff;
+    color: #000000;
     border-bottom: 1px solid #333;
     padding-bottom: 5px;
 }
@@ -31,14 +31,14 @@ h3{
     background: #252525;
     padding: 15px;
     border-radius: 5px;
-    border-left: 5px solid #800909;
+    border-left: 5px solid #b71515;
 }
 
 button{
     width: 100%;
     padding: 15px;
     margin-top: 20px;
-    background-color: #bb1111;
+    background-color: #941b1b;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -52,39 +52,40 @@ button{
 }
 
 button:hover{
-    background-color: #ac6d1b;
+    background-color: #9f1a1a;
 }
 
 ul {
     list-style: nome;
-    padding: 0 ;
+    padding: 0;
 }
 
 li {
     padding: 5px 0;
-    color: #ffffff;
+    color: #ccc;
 }
 
 input, select {
-    width: 1000;
-    padding:  10px;
+    width: 100%;
+    padding: 10px;
     margin: 8px 0;
     border-radius: 5px;
-    border:  1px solid #492f07;
-    background-color: #ffffff;
-    color: #ccc ;
-    box-sizing:  border-box;
+    border: 1px solid #444;
+    background-color: #252525;
+    color: white;
+    box-sizing: border-box;
 }
 
 hr {
     border: 0;
-    border-top: 1px solid #2c282852;
-    margin:  20px 0;
+    border-top: 1px solid #333;
+    margin: 20px 0;
 }
 
 .card{
-    background: #201b1b;
-    padding:  15px;
+    background: #252525;
+    padding: 15px;
     margin-top: 15px;
-    border-left: 5px solid #090a0a;
+    border-left: 5px solid #00ff88;
 }
+
