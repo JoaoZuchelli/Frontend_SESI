@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore_SESI | Produtos</title>
+    <link rel="stylesheet" href="trabaio.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Moto<span>Vibe</span></h1>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="trabaio.html">Início</a></li>
+            <li><a href="comando_e_automacao.html" class="active">Comando e automação</a></li>
+
+         
+            <li><a href="finalizar.html">🛒 Finalizar Compra</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <h2 class="section-title">Nossa Loja</h2>
+
+    <div class="motos-grid">
+
+        <div class="moto-card">
+            <img src="contatora.jpg" class="moto-img">
+            <div class="moto-info">
+                <h3>Contatora</h3>
+                <p>Controle de motores industriais.</p>
+                <p><strong>Preço: R$ 89,90</strong></p>
+                <button onclick="adicionarCarrinho('Contatora', 89.90)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="moto-card">
+            <img src="rele termico1.png" class="moto-img">
+            <div class="moto-info">
+                <h3>Relé Térmico</h3>
+                <p>Proteção de motores elétricos.</p>
+                <p><strong>Preço: R$ 65,00</strong></p>
+                <button onclick="adicionarCarrinho('Relé Térmico', 65.00)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="moto-card">
+            <img src="CLP.webp" class="moto-img">
+            <div class="moto-info">
+                <h3>CLP</h3>
+                <p>Automação industrial inteligente.</p>
+                <p><strong>Preço: R$ 899,90</strong></p>
+                <button onclick="adicionarCarrinho('CLP', 899.90)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="moto-card">
+            <img src="inversor de frequencia.jpg" class="moto-img">
+            <div class="moto-info">
+                <h3>Inversor de Frequência</h3>
+                <p>Controle de velocidade de motores.</p>
+                <p><strong>Preço: R$ 1.250,00</strong></p>
+                <button onclick="adicionarCarrinho('Inversor de Frequência', 1250.00)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+        <div class="moto-card">
+            <img src="soft starter.jpg" class="moto-img">
+            <div class="moto-info">
+                <h3>Soft Starter</h3>
+                <p>Partida suave de motores.</p>
+                <p><strong>Preço: R$ 790,00</strong></p>
+                <button onclick="adicionarCarrinho('Soft Starter', 790.00)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+
+<script src="carrinho.js"></script>
+
+</body>
+</html>

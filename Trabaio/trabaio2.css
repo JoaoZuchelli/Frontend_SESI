@@ -1,91 +1,80 @@
-body {
-    background-color: #121212;
+body{
+    background-color: #000000;
     color: #ffffff;
     font-family: 'Segoe UI', sans-serif;
     display: flex;
     justify-content: center;
     padding: 20px;
 }
-
-.container {
+.container{
     width: 400px;
-    background-color: #000000;
+    background-color: #030303;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #c11515;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 1PX solid #000000;
+    box-shadow: 0 10px 70px rgb(255, 115, 0);
 }
 
 h1{
-    color: #aa1c1c;
+    color: #ffaa00;
     text-align: center;
 }
 
 h3{
-    color: #000000;
-    border-bottom: 1px solid #333;
+    color: #ffffff;
+    border-bottom: 1px solid #000000;
     padding-bottom: 5px;
 }
 
-.card{
-    background: #252525;
+.card {
+
     padding: 15px;
     border-radius: 5px;
-    border-left: 5px solid #b71515;
+    padding: 15px;
+    border-left: 5px solid #000000;
 }
 
 button{
     width: 100%;
     padding: 15px;
     margin-top: 20px;
-    background-color: #941b1b;
-    border: none;
+    background-color: #ff7700;
+    border: none;    
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
-}
-
-.formulario{
-    justify-content: center;
-    padding: 20px;
+    transition: o.3s;
+    color: #ffffff;
 }
 
 button:hover{
-    background-color: #9f1a1a;
+    background-color: #ff9a3b;
+    color: #ffffff;
 }
 
-ul {
-    list-style: nome;
+ul{
+    list-style: none;
     padding: 0;
+
 }
 
-li {
+li{
     padding: 5px 0;
     color: #ccc;
 }
 
-input, select {
+input, select{
     width: 100%;
     padding: 10px;
     margin: 8px 0;
     border-radius: 5px;
-    border: 1px solid #444;
-    background-color: #252525;
+    border: 1px solid #ff7b00;
+    background-color: #000000;
     color: white;
     box-sizing: border-box;
 }
-
-hr {
-    border: 0;
-    border-top: 1px solid #333;
-    margin: 20px 0;
+hr{
+   border: 0;
+   border-top: lpx solid #000000;
+   margin: 20px 0; 
 }
-
-.card{
-    background: #252525;
-    padding: 15px;
-    margin-top: 15px;
-    border-left: 5px solid #00ff88;
-}
-
